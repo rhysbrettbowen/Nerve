@@ -1,3 +1,5 @@
+//v1.0.0
+
 // ==========================================
 // Copyright 2013 Dataminr
 // Licensed under The MIT License
@@ -24,7 +26,7 @@
 **                                                                            **
 ********************************************************************************
 *******************************************************************************/
-var Nerve = function() {
+define(['underscore', 'underscore.extras'], function(_) {
 
 
 var regEsc = function(str) {
@@ -420,4 +422,4 @@ Nerve.prototype.reset = function() {
 
 return Nerve;
 
-}();
+});
